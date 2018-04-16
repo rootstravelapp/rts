@@ -596,6 +596,7 @@ text.subunit-label {
 
 .social-icon{
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .align-horizontal{
@@ -691,11 +692,19 @@ text.subunit-label {
     box-shadow: none !important;
 }
 
-.below-the-fold .fa{
-    color: #03A9F4;
+.below-the-fold .fa,
+.fixed-wrapper .fa{
+    color: #8BC34A;
 }
 
 .job-title{
     margin-left: 20px;
     margin-top: -15px;
+}
+
+.fixed-wrapper{
+    width: 100px;
+    position: fixed;
+    right: 10px;
+    top: 65px;
 }
