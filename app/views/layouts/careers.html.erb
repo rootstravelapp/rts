@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<%= render partial: "layouts/partials/head", locals: {title: @title, description: @description} %>
+	
+	<body>
+		<div class="roots-nav " style="">
+		    <div class="nav-cont">
+		        <div class="block hide-block">
+		       	 	<a href="/careers" class="block">ROOTS CAREERS</a>
+		        </div>
+		        <div class="block">
+		        	<div  class="logo">
+			        	<a href="/">
+				        	<%= image_tag ("logo.png")%>
+			        	</a>
+		        	</div>
+		        </div>
+		        <div class="block hide-block">
+			        <a id="downloadBtn" href="https://play.google.com/store/apps/details?id=ai.roots" target="_blank" class="block">
+			        	<%= image_tag ("google_play.png") %>
+			        </a>
+		        	
+		        </div>
+		        
+		    </div>
+		</div>
+		<div class="page-wrap ">
+		    <div ui-view="" class="content-wrap ">
+		        <div class="m-page m-jobs departments-stretch ">
+		            <div>
+		                <div>
+		                    <div class="jobs-nav ">
+		                        <section class="jobs-nav-section">
+		                            <a href="/careers" class="<% if action?('index')%>j-active<% end %>">Our Story</a>
+		                            <a href="/careers/teams" class="<% if action?('teams')%>j-active<% end %>">Teams</a>
+		                            <a href="/careers/teams/internships" class="<% if action?('internships')%>j-active<% end %>">Internships</a>
+		                        </section>
+		                    </div>
+		                </div>
+		                <%= yield %>
+		            </div>
+		        </div>
+		    </div>
+		    <%= render partial: "website/partials/footer"%>
+		</div>
+		
+	</body>
+</html>

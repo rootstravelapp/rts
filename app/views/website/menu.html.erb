@@ -1,0 +1,43 @@
+<%= stylesheet_link_tag "menu" %>
+<link href="https://fonts.googleapis.com/css?family=Aladin|Alegreya+Sans|Roboto+Slab" rel="stylesheet">
+
+
+<div class="menu-card-wrapper">
+	<div class="menu-card-header-wrapper">
+		<!-- <div class="cover-image-wrapper"></div> -->
+		<div class="restaurant-name" style="font-family: 'Aladin', cursive;">
+			My Honey Cafe
+		</div>
+	</div>
+	<div class="menu-content">
+		<div class="menu-panel">
+			<% @menu.each_with_index do |(key, value), index|%>
+				<h1><%= key.upcase %></h1>
+				<div class="category-wrapper">
+					
+					<% value.each do |k2, v2|%>
+						<%= render partial: "website/partials/menu_items", locals: {items: v2} %>
+					<% end %>
+					
+				</div>
+			<% end %>
+		</div>
+	</div>
+
+	<div class="menu-card-footer">
+		<br/>
+		<div class="restaurant-tagline" style="width: 100vw; font-family: 'Aladin', cursive; clear:both;padding-left: 100px;padding-right: 100px;">
+			<div style="float:left;text-align: left;">
+				<div>Powered By ROOTS</div>
+				<div>One stop solution for a Tourist in a new city</div>
+			</div>
+			<div style="float:right;">
+				<image src="https://miduapp.com/wp-content/themes/midu/assets/img/google-play.png"
+					style="width: 150px"}/>
+			</div>
+			
+		</div>
+		
+	</div>
+</div>
+
