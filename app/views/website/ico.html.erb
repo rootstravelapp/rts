@@ -125,6 +125,7 @@
 <%= render partial: "website/partials/developers"%>
 <%= render partial: "website/partials/currency"%>
 <%= render partial: "website/partials/timeline"%>
+<%= render partial: "website/partials/events"%>
 <%= render partial: "website/partials/team"%>
 <%= render partial: "website/partials/faqs"%>
 <%= render partial: "website/partials/contact"%>
@@ -140,6 +141,11 @@
 		style: 'flat',
 	    buttons: true,
 	});
+
+  $("#events").flipster({
+      style: 'flat',
+      spacing: 0,
+  });
 
 	var acc = document.getElementsByClassName("accordion");
 var i;

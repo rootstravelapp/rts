@@ -703,3 +703,18 @@ text.subunit-label {
     font-size: 16px;
 }
 
+.events-items{
+    height: inherit !important;
+}
+
+.events-item{
+    border: 1px solid #EAEAEA;
+    padding: 10px;
+    background: white;
+    width: 400px;
+    max-width: 95vw;
+}
+
+.events-item img{
+    width: 200px;
+}
