@@ -215,7 +215,8 @@ body{overflow-x: hidden;}
 }
 
 #company-info{
-    padding: 0px 100px;
+    justify-content: center;
+    padding: 20px 100px;
 }
 
 
@@ -552,8 +553,7 @@ text.subunit-label {
 }
 
 .about-me-image-wrapper{
-    -webkit-box-flex: 1;
-    flex: 0.5;
+    width: 200px;
     position: relative;
 }
 
@@ -596,7 +596,6 @@ text.subunit-label {
 
 .social-icon{
     margin-right: 10px;
-    margin-top: 10px;
 }
 
 .align-horizontal{
@@ -694,17 +693,13 @@ text.subunit-label {
 
 .below-the-fold .fa,
 .fixed-wrapper .fa{
-    color: #8BC34A;
+    color: #03A9F4;
 }
 
 .job-title{
     margin-left: 20px;
-    margin-top: -15px;
+    margin-top: 2px;
+    font-weight: 100;
+    font-size: 16px;
 }
 
-.fixed-wrapper{
-    width: 100px;
-    position: fixed;
-    right: 10px;
-    top: 65px;
-}

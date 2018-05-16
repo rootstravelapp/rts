@@ -2942,15 +2942,30 @@ body.s-navless .m-header {
     text-align: center;
     background-color: #FFF;
     margin: 0 20px;
-    box-shadow: 0px 0 40px rgba(0, 0, 0, 0.05);
     padding: 35px 30px 30px 30px;
+    box-shadow: 0px 0 40px rgba(0, 0, 0, 0.05);
+}
+
+#team #company-info .info-box {
+    text-align: center;
+    background-color: #FFF;
+    margin: 0 20px;
+    width: 200px;
+    padding: 0px;
+    box-shadow: 0px 0 40px rgba(0, 0, 0, 0.05);
+    flex: inherit;
+    -webkit-box-flex: inherit;
 }
 
 @media only screen and (min-width: 769px) {
     #company-info .info-box {
         -webkit-box-flex: 1;
         -ms-flex: 1;
-        flex: 1
+        flex: 1;
+    }
+
+    #team #company-info .info-box {
+        width: 200px;
     }
 }
 
@@ -4721,7 +4736,7 @@ h2{
 .about-me{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-    width: 300px;
+    width: 200px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -4763,7 +4778,17 @@ h6{
 }
 
 #company-info h3{
-    text-transform: uppercase;
     font-weight: bold;
     color: #333;
+    margin-bottom: 2px;
+}
+
+.profile-content{
+    padding: 0px 1px 15px 1px;
+}
+
+.job-description{
+    font-size: 13px;
+    line-height: 20px;
+    color: #909090;
 }
