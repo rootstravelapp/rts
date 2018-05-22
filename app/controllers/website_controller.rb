@@ -1,5 +1,12 @@
 class WebsiteController < ApplicationController
 
+	def email_subscribe
+		email = params[:email]
+		if email
+			SubscribedUser.create(:email => email)
+		end
+	end
+
 	def coming_soon
 		@title = SeoContent::Title::Brand
 		@description = SeoContent::Description::Brand

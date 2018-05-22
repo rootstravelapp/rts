@@ -17,4 +17,5 @@ Rails.application.routes.draw do
 	get '/businesses' => 'website#businesses'
 	get '/menu' => 'website#menu'
 	get '/dream' => 'website#ico'
+	post '/subscribe' => 'website#email_subscribe'
 end
