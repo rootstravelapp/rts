@@ -845,7 +845,6 @@ h2{
 }
 
 .stories{
-    background-image: url("blog.png");
     background-size: cover;
     background-repeat: no-repeat;
     filter: sepia(20%);
