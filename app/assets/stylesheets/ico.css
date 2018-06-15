@@ -711,7 +711,7 @@ text.subunit-label {
 
 .below-the-fold .fa,
 .fixed-wrapper .fa{
-    color: #03A9F4;
+    color: #9CCC65;
 }
 
 .job-title{
@@ -842,4 +842,11 @@ h2{
 
 .story{
     width: 100%;
+}
+
+.stories{
+    background-image: url("blog.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: sepia(20%);
 }
