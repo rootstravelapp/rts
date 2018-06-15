@@ -230,7 +230,7 @@ th {
     font-weight: 400;
     margin-bottom: 10px;
     color: #343434;
-    font-family: Heebo
+    font-family: Lato
 }
 
 @media only screen and (max-width: 800px) {
@@ -957,10 +957,6 @@ a {
     color: #62b301
 }
 
-img {
-    max-width: 100%
-}
-
 html,
 body {
     height: 100%
@@ -1079,7 +1075,7 @@ h5 {
 
 .m-header-light {
     font-weight: 100;
-    font-family: Heebo
+    font-family: Lato
 }
 
 .m-col-50 {
@@ -1103,7 +1099,7 @@ h5 {
     font-weight: 100;
     font-size: 20px;
     margin-bottom: 5px;
-    font-family: Heebo
+    font-family: Lato
 }
 
 .ti-blog {
@@ -1433,11 +1429,11 @@ h5 {
 }
 
 .red-headline {
-    font-family: Heebo;
+    font-family: Lato;
     font-weight: 500;
     letter-spacing: 0.08rem;
     font-size: 2rem;
-    background: linear-gradient(216deg, #000, #673AB7, #03A9F4);
+    background: #59585B;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1461,11 +1457,6 @@ h5 {
     list-style: none
 }
 
-#departments-page-container h1,
-#departments-page-container h4 {
-    font-family: proxima-nova
-}
-
 #departments-page-container h4 {
     font-size: 1.15rem;
     color: #6C6C6C;
@@ -1481,7 +1472,6 @@ h5 {
 }
 
 #departments-description {
-    text-align: center;
     margin-top: 20px;
     line-height: 28px;
     max-width: 700px;
@@ -1656,7 +1646,7 @@ h5 {
 
 #hero-department h1,
 #hero-department h4 {
-    font-family: Heebo;
+    font-family: Lato;
     color: #FFF
 }
 
@@ -1713,7 +1703,7 @@ h5 {
 }
 
 .description-department h5 {
-    font-family: Heebo;
+    font-family: Lato;
     color: #B3B3B3;
     font-size: 1rem;
     line-height: 1.9rem;
@@ -1803,7 +1793,7 @@ h5 {
 }
 
 #listings-department .greenhouse-job a {
-    font-family: Heebo;
+    font-family: Lato;
     display: block;
     text-decoration: none
 }
@@ -1843,7 +1833,7 @@ h5 {
 }
 
 #listings-department #categories-listings-greenhouse p {
-    font-family: Heebo;
+    font-family: Lato;
     font-size: 1rem;
     font-weight: 500;
     line-height: 2rem;
@@ -1890,7 +1880,7 @@ h5 {
 }
 
 #listings-department #categories-department .category-pods {
-    font-family: Heebo;
+    font-family: Lato;
     background-color: #FFF;
     color: #B3B3B3;
     border-radius: 8px;
@@ -2683,14 +2673,6 @@ body.s-navless .m-header {
     }
 }
 
-@media only screen and (min-width: 769px) {
-    #stats {
-        margin-top: -100px
-    }
-
-    
-}
-
 @media only screen and (max-width: 800px) {
     #stat-container {
         display: -webkit-box;
@@ -2883,12 +2865,10 @@ body.s-navless .m-header {
 
 #headline-bottom p,
 #departments-description p{
-    font-size: 2rem !important;
+    font-size: 0.9rem !important;
     font-weight: 400 !important;
-    text-align: center !important;
     font-family: "Montserrat" !important;
-    margin: 20px !important;
-    line-height: 3.4rem !important;
+    line-height: 1.3rem !important;
 }
 
 .m-jobs #headline-bottom h3,
@@ -2939,11 +2919,8 @@ body.s-navless .m-header {
 }
 
 #company-info .info-box {
-    text-align: center;
     background-color: #FFF;
-    margin: 0 20px;
-    padding: 35px 30px 30px 30px;
-    box-shadow: 0px 0 40px rgba(0, 0, 0, 0.05);
+    padding: 0px 30px 0px 30px;
 }
 
 #team #company-info .info-box {
@@ -2982,9 +2959,10 @@ body.s-navless .m-header {
 }
 
 #company-info .info-box p {
-    margin-top: 15px;
+    margin-top: 25px;
     font-size: 1rem;
-    font-weight: 400
+    font-weight: 400;
+    text-align: center;
 }
 
 .m-jobs #footer-apply #apply-section {
@@ -3023,7 +3001,7 @@ body.s-navless .m-header {
 }
 
 .jobs-nav a {
-    font-family: Heebo;
+    font-family: Lato;
     font-size: 1rem;
     letter-spacing: 0.07rem;
     margin: 0 1.5%;
@@ -3231,7 +3209,7 @@ body.redesign .ti-content {
     height: 46px;
     z-index: 3;
     background: #FFF;
-    box-shadow: 0 10px 20px 0 rgba(149,152,172,.1);
+    box-shadow: 0 2px 10px 0 rgba(149,152,172,.1);
     text-align: justify !important;
     -ms-text-justify: distribute-all-lines !important;
     text-justify: distribute-all-lines !important;
@@ -3474,7 +3452,7 @@ body.redesign .ti-content {
     font-size: 20px;
     font-style: italic;
     font-weight: 800;
-    font-family: Heebo;
+    font-family: Lato;
     text-transform: uppercase
 }
 
@@ -4199,15 +4177,6 @@ body.redesign .ti-content {
     position: relative
 }
 
-.m-page h1,
-.m-page h2 {
-    color: #343434;
-    font-family: Heebo;
-    font-weight: 100;
-    font-size: 35px;
-    line-height: 35px
-}
-
 .m-page section {
     padding: 1em 0;
     margin: 0px auto;
@@ -4654,6 +4623,7 @@ body.redesign .ti-content {
 
 .limitless{
     width: 100px;
+    float: right;
 }
 
 .hero-icon{
@@ -4719,13 +4689,6 @@ body.redesign .ti-content {
     border-radius: 10px;
 }
 
-h2{
-    color: white !important;
-    font-size: 15px !important;
-    font-weight: bold !important;
-    font-family: lato !important;
-}
-
 .about-me-wrapper{
     margin-bottom: 10px;
     border-bottom: 1px solid #E0E0E0;
@@ -4734,8 +4697,7 @@ h2{
 }
 
 .about-me{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    background-size: cover;
     width: 200px;
 }
 
@@ -4784,7 +4746,7 @@ h6{
 }
 
 .profile-content{
-    padding: 0px 1px 15px 1px;
+    padding: 10px 1px 15px 1px;
 }
 
 .job-description{

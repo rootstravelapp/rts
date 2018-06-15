@@ -1,0 +1,72 @@
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Lato:700|Heebo:600|Montserrat|Ubuntu:700" rel="stylesheet">
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script> 
+
+<%= render partial: "website/partials/header"%>
+
+<div class="homepage">
+	
+	<div id="particles-js"></div>
+	<div class="blocks-parent-wrapper">
+		<div class="blocks-wrapper">
+			<div class="blocks">
+				<div class="download-container">
+					<div class="home-download-app" translate="home.orDownloadNow">
+						<div class="brand-tagline">Network of Decentralised Autonomous TOURISM MARKETPLACES</div>
+						<div>Powered by Ethereum, Multi SideChains, UPort, Aragon and Plasma.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="blocks-footer-wrapper">
+		 <p>Connect with us</p>
+		<%= render partial: "website/partials/social"%>
+	</div>
+</div>
+
+<%= render partial: "website/partials/roots"%> 	
+<%= render partial: "website/partials/framework"%> 
+<%= render partial: "website/partials/enigma"%> 
+<%= render partial: "website/partials/reputation"%> 
+<%= render partial: "website/partials/rootsai"%> 
+
+<%= render partial: "website/partials/team"%>
+<%= render partial: "website/partials/contact"%>
+<%= render partial: "website/partials/new_footer"%>
+
+<a href="https://api.whatsapp.com/send?phone=919108444157" target="_blank" title="Chat with us"><%= image_tag "whatsapp.png", :alt => "Chat with us", :class => "whatsapp" %></a>
+
+<script>
+	particlesJS.load('particles-js', 'particles.json', function() {
+
+	});
+	$("#flat").flipster({
+		style: 'flat',
+			buttons: true,
+	});
+
+	$("#events").flipster({
+			style: 'flat',
+			spacing: 0,
+	});
+
+	var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function() {
+				/* Toggle between adding and removing the "active" class,
+				to highlight the button that controls the panel */
+				this.classList.toggle("active");
+
+				/* Toggle between hiding and showing the active panel */
+				var panel = this.nextElementSibling;
+				if (panel.style.display === "block") {
+						panel.style.display = "none";
+				} else {
+						panel.style.display = "block";
+				}
+		});
+}
+</script>

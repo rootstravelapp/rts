@@ -25,6 +25,12 @@ class WebsiteController < ApplicationController
 		@image_url = SeoContent::Image::Ico
 	end
 
+	def new
+		@title = SeoContent::Title::Ico
+		@description = SeoContent::Description::Ico
+		@image_url = SeoContent::Image::Ico
+	end
+
 	def blog
 		@title = SeoContent::Title::Blog
 		@description = SeoContent::Description::Blog

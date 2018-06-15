@@ -8,7 +8,7 @@ class SeoContent
 		# They must be written differently for every page. Don’t mass replicate your title tags.
 		# Title tags must be written to be descriptive of the content on the page. (e.g., the About Page would be:
 		Brand = "Travel App | For the Modern Day Hippie Traveller | Explore Gokarna | Roots"
-		Ico = "RTS Network ICO | Decentralised blockchain that creates a self driven digital commonwealth in Tourism for suppliers and consumers."
+		Ico = "RTS Network ICO | Network of Decentralised Autonomous TOURISM MARKETPLACES"
 		Careers = "Roots Beach Internship Program | Roots Careers"
 		Blog = "Official Blog of Roots, App for the Modern Day Hippie Traveller"
 		Privacy = "Roots Privacy Policy | App for the Modern Day Hippie Traveller"
@@ -32,9 +32,9 @@ class SeoContent
 		# It should contain the focus keyword.
 		# The meta description should be unique.
 		Brand = "Download the Hippie's Travel App for Gokarna. Explore the nearby hidden beaches, caves, forts and much more. Find the places to stay, eat, and even connect with the local transport."
-		Ico = "RTS Network ICO | Decentralised blockchain that creates a self driven digital commonwealth in Tourism for suppliers and consumers."
+		Ico = "RTS Network ICO | Network of Decentralised Autonomous TOURISM MARKETPLACES"
 		Careers = "At Roots, we have several exciting opportunities available for university grads and students who want to grow with us in solving the challenge of bringing the entire globe on the Roots map."
-		Blog = "Official Blog of RTS Network ICO | Decentralised blockchain that creates a self driven digital commonwealth in Tourism for suppliers and consumers.."
+		Blog = "Official Blog of RTS Network ICO | Network of Decentralised Autonomous TOURISM MARKETPLACES."
 		Privacy = "Roots Privacy Policy | App for the Modern Day Hippie Traveller."
 		Terms = "Roots Terms and Conditions | App for the Modern Day Hippie Traveller."
 		Contact = "Roots Contact Info | App for the Modern Day Hippie Traveller."

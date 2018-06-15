@@ -12,6 +12,8 @@ body{overflow-x: hidden;}
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     padding-left: 30px;
+    width: 100vw;
+    text-align: center;
 }
 
 .homepage {
@@ -203,7 +205,7 @@ body{overflow-x: hidden;}
 }
 
 .homepage .blocks-wrapper .download-container .home-download-app {
-    color: white;
+    color: #59585B;
     font-weight: 200;
     padding: 25px;
     max-width: 500px;
@@ -300,8 +302,8 @@ body{overflow-x: hidden;}
 
 .brand-tagline{
     font-family: "lato";
-    font-size: 2em;
-    line-height: 1.5em;
+    font-size: 1.8em;
+    line-height: 1.1em !important;
 }
 
 
@@ -496,7 +498,7 @@ text.subunit-label {
 
 .blocks{
     float: left;
-    width: 50vw;
+    width: 100vw;
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -515,6 +517,7 @@ text.subunit-label {
     overflow: hidden;
     font-weight: 200;
     font-size: 1.2rem;
+    line-height: 2em;
 }
 
 .blocks-wrapper{
@@ -529,7 +532,7 @@ text.subunit-label {
 }
 
 .fa{
-    color: white;
+    color: #59585B;
 }
 
 #pieChart{
@@ -555,6 +558,8 @@ text.subunit-label {
 .about-me-image-wrapper{
     width: 200px;
     position: relative;
+    height: 213px;
+    overflow: hidden;
 }
 
 .about-me-description{
@@ -583,7 +588,7 @@ text.subunit-label {
 }
 
 .nav-cont .block .logo-text{
-    background: black;
+    background: #59585B;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'ubuntu', 'Lato', sans-serif;
@@ -697,10 +702,10 @@ text.subunit-label {
 }
 
 .job-title{
-    margin-left: 20px;
     margin-top: 2px;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 0.7em;
+    line-height: 1.4em;
 }
 
 .events-items{
@@ -717,4 +722,42 @@ text.subunit-label {
 
 .events-item img{
     width: 200px;
+}
+
+h1{
+    font-family: Lato !important;
+    font-weight: 500;
+    letter-spacing: 0.08rem !important;
+    font-size: 2rem !important;
+    background: #59585B;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Lato;
+}
+
+h2{
+    display: block;
+    margin: 15px 0;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #6C6C6C;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.left{
+    text-align: left !important;
+}
+
+.right{
+    text-align: right !important;
+}
+
+.clip{
+    max-width: 100%;
 }
