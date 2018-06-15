@@ -303,7 +303,7 @@ body{overflow-x: hidden;}
 .brand-tagline{
     font-family: "lato";
     font-size: 1.8em;
-    line-height: 1.1em !important;
+    line-height: 1.5em !important;
 }
 
 
@@ -661,7 +661,20 @@ text.subunit-label {
     max-width: 80vw;
     width: 400px;
     background-color: white;
-    height: 300px;
+    box-shadow: 0 4px 25px 0 #f0f0f0;
+    -webkit-box-shadow: 0 4px 25px 0 #f0f0f0;
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-radius: 10px;
+    border-radius: 10px;
+    padding: 20px 40px 20px 40px;
+}
+
+#flat ul{
+    margin: 5px;
+    display: -webkit-box;
+    overflow-x: scroll;
+    list-style: none;
 }
 
 .accordion {
@@ -729,7 +742,8 @@ h1{
     font-weight: 500;
     letter-spacing: 0.08rem !important;
     font-size: 2rem !important;
-    background: #59585B;
+    line-height: 2.3rem !important;
+    background: #000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Lato;
@@ -742,8 +756,6 @@ h2{
     line-height: 1.9rem;
     font-weight: 400;
     letter-spacing: 0.01em;
-    color: #6C6C6C;
-    text-align: center;
     margin-top: 20px;
     max-width: 700px;
     margin: auto;
@@ -759,5 +771,75 @@ h2{
 }
 
 .clip{
-    max-width: 100%;
+        width: 200px;
+}
+
+.breathe-animation{
+    -webkit-animation: breathing 3s ease-out infinite normal;
+    animation: breathing 3s ease-out infinite normal;
+}
+
+.move-up-down-animation{
+    animation: MoveUpDown 3s linear infinite;
+}
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 100px;
+  }
+}
+
+.story{
+    width: 90vw;
 }

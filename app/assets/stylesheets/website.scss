@@ -361,9 +361,12 @@
 }
 
 .description-icon{
-    width: 120px;
-    height: 120px;
-    background-size: contain;
+    width: 200px;
+    height: 213px;
+    background-repeat: no-repeat;
+    background-size: 56%;
+    background-position-x: 50px;
+    background-position-y: 47px;
 }
 
 .traveller_phone{
